@@ -1,0 +1,51 @@
+.innerBoxC {
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+    border-radius: 20px;
+    margin: auto;
+    margin-top: 50px;
+    width: 500px;
+    background-color: rgb(197, 150, 150);
+}
+.innerBox {
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+    border-radius: 20px;
+    margin: auto;
+    margin-top: 50px;
+    width: 500px;
+    background-color: white;
+}
+.innerBoxC:hover{
+    width: 510px;
+}
+/* .innerBox:hover{
+    width: 510px;
+} */
+.listBox{
+    background-color: rgb(55, 11, 97);
+    width: 600px;
+    margin: auto;
+    border-radius: 20px;
+    padding: 20px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.listBox h1{
+    color: yellow;
+}
+.delete{
+    width: 150px;
+    height: 50px;
+    padding: 10px;
+    font-size: 15px;
+    border-radius: 30px;
+    background-color: aqua;
+    
+}
