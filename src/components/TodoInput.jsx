@@ -19,14 +19,13 @@ const TodoInput = (props) => {
   };
   return (
     <div className={styles.inputBox}>
-      <h2>ToDo Input</h2>
       <input 
         placeholder='Enter New Todo'
         type="text"
         value={query}
         onChange={changeHandler}
       />
-      <button onClick={clickHandler}>Add ToDo</button>
+      <button onClick={clickHandler}>+</button>
     </div>
   )
 }

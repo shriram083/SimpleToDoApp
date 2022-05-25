@@ -1,25 +1,27 @@
 .inputBox{
-    background-color: blueviolet;
     width: 500px;
     border-radius: 20px;
     margin: auto;
-    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-    padding: 20px;
+    padding: 0px;
 }
 .inputBox input{
-    padding: 10px;
+    padding: 20px;
     padding-left: 30px;
     border-radius: 10px;
     border: none;
     margin: 10px;
-    font-size: 20px;
+    font-size: 25px;
     font-weight: 300;
 }
 .inputBox button{
-    background-color: rgb(55, 11, 97);
-    color: white;
-    font-size: 20px;
-    font-weight: 300;
+    color: black;
+    font-size: 30px;
+    font-weight: 800;
     padding: 10px 20px 10px 20px;
     border-radius: 10px;
+    border: none;
+    height: 70px;
+    width: 70px;
+    margin-left: 20px;
+    cursor: pointer;
 }

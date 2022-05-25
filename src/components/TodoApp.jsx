@@ -36,43 +36,17 @@ const TodoApp = () => {
     })
     setList(newList)
   };
-  const increment = (index) => {
-    let newList = list.map((el,i)=>{ 
-      if(index==i)
-      {
-        el.qty+=1;
-      }
-      return (
-      el
-    )  
-    })
-    setList(newList)
-    // console.log(newList);
-  }
 
-  const decrement = (index) => {
-    let newList = list.map((el,i)=>{ 
-      if(index==i)
-      {
-        el.qty-=1;
-      }
-      return (
-      el
-    )  
-    })
-    setList(newList)
-    // console.log(newList);
-  }
+
+
 
   return (
-    <div >
+    <div className={styles.mainBox}>
       <h1>My Todo App</h1>
       <TodoInput addNew={addNew}/>
       <TodoList 
           list={list}
           deleteTodo={deleteTodo}
-          increment={increment}
-          decrement={decrement}
           chengeChecked={chengeChecked}/>
     </div>
   )
